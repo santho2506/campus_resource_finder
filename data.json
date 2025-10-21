@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "registrationNumber": "921023103011",
+      "fullName": "DEBII",
+      "dateOfBirth": "2025-10-10",
+      "password": "password123",
+      "email": "abiravi2807@gmail.com",
+      "phoneNumber": "+919790580184",
+      "department": "CSE",
+      "role": "Student"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "name": "Study Room 102",
+      "type": "Study Room",
+      "building": "Main Library",
+      "capacity": 30,
+      "facilities": [
+        "High-Speed Computers",
+        "Programming Software",
+        "Wi-Fi"
+      ],
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Meeting Room A",
+      "type": "Conference Room",
+      "building": "Admin Block",
+      "capacity": 15,
+      "facilities": [
+        "Projector",
+        "Whiteboard",
+        "Video Conference"
+      ],
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Conference Hall 1",
+      "type": "Conference Room",
+      "building": "Academic Building",
+      "capacity": 50,
+      "facilities": [
+        "Audio System",
+        "Podium",
+        "AC"
+      ],
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Badminton Court",
+      "type": "Sports Facility",
+      "building": "Sports Complex",
+      "capacity": 4,
+      "facilities": [
+        "Outdoor Court",
+        "Night Lights",
+        "Equipment Rental"
+      ],
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Tennis Court",
+      "type": "Sports Facility",
+      "building": "Sports Complex",
+      "capacity": 4,
+      "facilities": [
+        "Outdoor Court",
+        "Night Lights",
+        "Equipment Rental"
+      ],
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Reading Hall A",
+      "type": "Library Resource",
+      "building": "Main Library",
+      "capacity": 50,
+      "facilities": [
+        "Silent Zone",
+        "Individual Desks",
+        "AC"
+      ],
+      "available": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1761061471692,
+      "userId": 1,
+      "userName": "DEBII",
+      "resourceId": 1,
+      "resourceName": "Study Room 102",
+      "resourceType": "Study Room",
+      "date": "2026-01-20",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "status": "Confirmed",
+      "bookedOn": "2025-10-21"
+    },
+    {
+      "id": 1761061952303,
+      "userId": 1,
+      "userName": "DEBII",
+      "resourceId": 1,
+      "resourceName": "Study Room 102",
+      "resourceType": "Study Room",
+      "date": "2026-01-20",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "status": "Confirmed",
+      "bookedOn": "2025-10-21"
+    },
+    {
+      "id": "1761062395691",
+      "userId": 1,
+      "userName": "DEBII",
+      "resourceId": 1,
+      "resourceName": "Study Room 102",
+      "resourceType": "Study Room",
+      "date": "2026-01-20",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "status": "Confirmed",
+      "bookedOn": "2025-10-21"
+    }
+  ]
+}
